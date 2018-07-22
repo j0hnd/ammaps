@@ -1,0 +1,232 @@
+[
+    {
+        "id": "US-AK",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-AZ",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-AR",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-CA",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-CO",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-CT",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-DE",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-FL",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-GA",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-HI",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-ID",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-IL",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-IN",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-IA",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-KS",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-KY",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-ME",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-MD",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-MA",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-MI",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-MN",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-MS",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-MO",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-MT",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-NE",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-NV",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-NH",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-NJ",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-NM",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-NY",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-NC",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-ND",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-OH",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-OK",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-OR",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-PA",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-RI",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-SC",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-SD",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-TN",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-UT",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-VT",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-VA",
+        "description": "Dr. Mike",
+        "color": "#2b78ad"
+    },
+    {
+        "id": "US-WV",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-WI",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    },
+    {
+        "id": "US-WY",
+        "description": "Dr. Odom",
+        "color": "#3697d9"
+    }
+]
