@@ -18,6 +18,6 @@
   </body>
 
   <script src="{{ asset('/ammap/ammap.js') }}" type="text/javascript"></script>
-  <script src="{{ asset('ammap/maps/js/usaLow.js') }}" type="text/javascript"></script>
+  <script src="{{ asset('/ammap/maps/js/usaLow.js') }}" type="text/javascript"></script>
   @stack('scripts')
 </html>
