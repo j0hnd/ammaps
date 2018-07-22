@@ -15,8 +15,11 @@ class LicensedStatesDoctors extends Seeder
      */
     public function run()
     {
+        // clean up target table
         DoctorLicensedStates::truncate();
 
+        // reference data. States is prefixed with US- because this is how
+        // ammap will read the state to map it with US map.
         $doctor_states_ref = [
             'Dr. Mike' => [
                 'US-AK', 'US-DE', 'US-ID', 'US-ME', 'US-MA', 'US-MS', 'US-NV', 'US-NM', 'US-ND', 'US-PA', 'US-VT', 'US-VA', 'US-WA'
@@ -31,6 +34,7 @@ class LicensedStatesDoctors extends Seeder
         $color_ref = ['Dr. Mike' => '#2B78AD', 'Dr. Odom' => '#3697D9'];
 
         try {
+            // get all doctors and states
             $states  = States::all();
             $doctors = Doctors::all();
 
@@ -39,6 +43,8 @@ class LicensedStatesDoctors extends Seeder
 
             foreach ($doctor_states_ref as $doctor_name => $ref) {
                 foreach ($states as $state) {
+                    // check if doctor is licensed to the current state. if yes,
+                    // get referenced doctor and state and save to target table
                     if (in_array($state->state_name, $ref)) {
                         $doctor = Doctors::where('doctor_name', $doctor_name)->first();
                         $data = [

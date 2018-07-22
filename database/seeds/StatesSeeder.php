@@ -13,6 +13,11 @@ class StatesSeeder extends Seeder
      */
     public function run()
     {
+        // clean up target table and initialize variables
+        States::truncate();
+        $count = 0;
+
+        // reference data
         $states = [
             "US-AL",
             "US-AK",
@@ -65,13 +70,11 @@ class StatesSeeder extends Seeder
             "US-WY"
         ];
 
-        States::truncate();
-        $count = 0;
-
         // get local timezone
         $local_time = Carbon::now(new DateTimezone(config('app.timezone')));
 
         foreach ($states as $state) {
+            // save state in target table
             States::create(['state_name' => $state]);
             $count++;
         }

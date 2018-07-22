@@ -13,7 +13,10 @@ class DoctorsSeeder extends Seeder
      */
     public function run()
     {
+        // clean up target table
         Doctors::truncate();
+
+        // reference data and initialize variables
         $doctors = ['Dr. Mike', 'Dr. Odom'];
         $count = 0;
 
@@ -21,6 +24,7 @@ class DoctorsSeeder extends Seeder
         $local_time = Carbon::now(new DateTimezone(config('app.timezone')));
 
         foreach ($doctors as $doctor) {
+            // save doctor info to target table
             Doctors::create(['doctor_name' => $doctor]);
             $count++;
         }
