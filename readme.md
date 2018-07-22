@@ -9,16 +9,21 @@
 
 ## Laravel and AmCharts
 
-A sample laravel project that implements AmChart's maps to present the licensed doctors for each US States.
+A sample internal laravel project that implements AmChart's maps.
 
 ## Requirements
-- PHP 7.1
-- Laravel 5.6
+- PHP 7.1.x
+- Laravel 5.6.x
 - AmCharts (https://www.amcharts.com/)**
 
 ## Installation
-- run composer Installation
-- run npm install
+
+Run these following commands in your terminal;
+
+- composer Installation
+- npm install
+- chmod 777 -R storage
+- chmod 777 bootstrap/cache
 - php artisan migrate
 - php artisan db:seed
 - npm run dev
