@@ -18,5 +18,11 @@
         "laravel-mix": "^2.0",
         "lodash": "^4.17.4",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "ajv": "^6.5.2",
+        "amcharts3": "^3.21.13",
+        "ammap3": "^3.21.13",
+        "peer": "^0.2.8"
     }
 }

@@ -1,7 +1,6 @@
 @extends('maps')
 
 @section('main-content')
-  <br>
   @component('components.map', ['data' => $data])
     @slot('title')
       Licensed Doctors Map
