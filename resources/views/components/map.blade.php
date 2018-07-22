@@ -8,18 +8,18 @@
 @push('scripts')
 <script type="text/javascript">
 var map = AmCharts.makeChart( "mapdiv", {
-  type: "map",
-  theme: "light",
+  type: window.mapType,
+  theme: window.mapTheme,
   dataProvider: {
     map: "{{ $map }}",
     areas: @json($data)
   },
   areasSettings: {
-    color: "#3697d9",
-    rollOverColor: "#9acbec",
-    rollOverOutlineColor: "#256997",
-    selectedColor: "#3087c3",
-    outlineColor: "#FFFFFF",
+    color: window.color,
+    rollOverColor: window.rollOverColor,
+    rollOverOutlineColor: window.rollOverOutlineColor,
+    selectedColor: window.selectedColor,
+    outlineColor: window.outlineColor,
     balloonText: "<strong>[[title]]</strong><br/>Licensed doctor: [[description]]"
   },
   imagesSettings: {

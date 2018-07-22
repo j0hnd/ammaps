@@ -47726,6 +47726,15 @@ __webpack_require__("./resources/assets/js/bootstrap.js");
 
 window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 
+// map attributes
+window.mapType = "map";
+window.mapTheme = "light";
+window.color = "#3697d9";
+window.rollOverColor = "#9acbec";
+window.rollOverOutlineColor = "#256997";
+window.selectedColor = "#3087c3";
+window.outlineColor = "#FFFFFF";
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

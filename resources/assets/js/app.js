@@ -12,6 +12,15 @@ import 'ammap3/ammap/maps/js/usaLow.js';
 
 window.Vue = require('vue');
 
+// map attributes
+window.mapType = process.env.MIX_MAP_TYPE;
+window.mapTheme = process.env.MIX_MAP_THEME;
+window.color = process.env.MIX_MAP_COLOR;
+window.rollOverColor = process.env.MIX_MAP_ROLL_OVER_COLOR;
+window.rollOverOutlineColor = process.env.MIX_MAP_ROLL_OVER_OUTLINE_COLOR;
+window.selectedColor = process.env.MIX_MAP_SELECTED_COLOR;
+window.outlineColor = process.env.MIX_MAP_OUTLINE_COLOR;
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
