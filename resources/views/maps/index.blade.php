@@ -13,4 +13,14 @@
       </div>
     </div>
   @endcomponent
+
+  <div class="row">
+    <div id="app">
+      <example-component></example-component>
+
+      <div id="components-demo">
+        <button-counter></button-counter>
+      </div>
+    </div>
+  </div>
 @endsection
