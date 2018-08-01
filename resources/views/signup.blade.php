@@ -88,7 +88,7 @@
   // mixpanel.track_links(".submit-signup-btn", "submitted signup form", {
   //     "referrer": document.referrer
   // });
-  mixpanel.track_links(".cancel-btn", "clicked cancel button", {
+  mixpanel.track_links(".cancel-btn", "signup cancelled", {
       "referrer": document.referrer
   });
 </script>
