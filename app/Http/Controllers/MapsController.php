@@ -26,4 +26,13 @@ class MapsController extends Controller
 
         return view('maps.index', compact('data'));
     }
+
+    public function signup(Request $request)
+    {
+        if ($request->isMethod('post')) {
+            return back()->with('success', 'Signup success');
+        }
+
+        return back()->withErrors(['error', 'Oops! Unable to save your signup']);
+    }
 }
