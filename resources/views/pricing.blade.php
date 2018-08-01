@@ -19,7 +19,8 @@
 <script type="text/javascript">
   mixpanel.track("Load pricing page");
   mixpanel.track_links(".signup-btn", "clicked signup form", {
-    "referrer": document.referrer
+    "referrer": document.referrer,
+    "source": "pricing page"
   });
 </script>
 @endpush

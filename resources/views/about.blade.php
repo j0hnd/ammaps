@@ -24,7 +24,8 @@
 <script type="text/javascript">
   mixpanel.track("Loaded about page");
   mixpanel.track_links(".signup-btn", "clicked signup form", {
-    "referrer": document.referrer
+    "referrer": document.referrer,
+    "source": "about page"
   });
 </script>
 @endpush
