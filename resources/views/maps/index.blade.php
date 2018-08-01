@@ -15,12 +15,21 @@
   @endcomponent
 
   <div class="row">
-    <div id="app">
-      <example-component></example-component>
-
-      <div id="components-demo">
-        <button-counter></button-counter>
-      </div>
+    <div class="col-md-8 offset-md-2 mt-5">
+      <div id="nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/pricing">Pricing</a>
+    </div>
     </div>
   </div>
 @endsection
+
+@push('scripts')
+<script type="text/javascript">
+  mixpanel.track("Load Map");
+  mixpanel.track_links("#nav a", "click nav link", {
+      "referrer": document.referrer
+  });
+</script>
+@endpush
