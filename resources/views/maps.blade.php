@@ -16,7 +16,11 @@
   <body>
     <div class="flex-center position-ref full-height">
       <div class="content">
-        @yield('main-content')
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              @yield('main-content')
+            </div>
+          </div>
       </div>
     </div>
   </body>

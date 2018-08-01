@@ -12,3 +12,12 @@
 */
 
 Route::get('/', 'MapsController@index');
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});

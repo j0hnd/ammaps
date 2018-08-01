@@ -15,12 +15,11 @@
   @endcomponent
 
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-5">
+    <div class="col-12">
       <div id="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/pricing">Pricing</a>
-    </div>
+        <a href="/about" class="btn btn-info about">About</a>
+        <a href="/pricing" class="btn btn-info pricing">Pricing</a>
+      </div>
     </div>
   </div>
 @endsection
@@ -28,7 +27,10 @@
 @push('scripts')
 <script type="text/javascript">
   mixpanel.track("Load Map");
-  mixpanel.track_links("#nav a", "click nav link", {
+  mixpanel.track_links("#nav .about", "click about link", {
+      "referrer": document.referrer
+  });
+  mixpanel.track_links("#nav .pricing", "click pricing link", {
       "referrer": document.referrer
   });
 </script>
