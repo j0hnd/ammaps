@@ -26,6 +26,7 @@
 
 @push('scripts')
 <script type="text/javascript">
+  // mixpanel.disable();
   mixpanel.track("Load Map");
   mixpanel.track_links("#nav .about", "click about link", {
       "referrer": document.referrer
