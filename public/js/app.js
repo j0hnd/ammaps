@@ -47734,7 +47734,7 @@ window.rollOverColor = "#9acbec";
 window.rollOverOutlineColor = "#256997";
 window.selectedColor = "#3087c3";
 window.outlineColor = "#FFFFFF";
-window.mixPanelToken = "5d62f0c905d6270b3f23d8acdf1634d7";
+// window.mixPanelToken = process.env.MIX_MIXPANEL_TOKEN;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

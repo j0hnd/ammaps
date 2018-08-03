@@ -27,12 +27,14 @@
 @push('scripts')
 <script type="text/javascript">
   // mixpanel.disable();
-  mixpanel.track("Load Map");
-  mixpanel.track_links("#nav .about", "click about link", {
-      "referrer": document.referrer
+  // mixpanel.track("Load Map");
+  mixpanel.track_links(".about", "clicked about link", {
+      "referrer": document.referrer,
+      "source": "about page"
   });
-  mixpanel.track_links("#nav .pricing", "click pricing link", {
-      "referrer": document.referrer
+  mixpanel.track_links(".pricing", "clicked pricing link", {
+      "referrer": document.referrer,
+      "source": "princing page"
   });
 </script>
 @endpush

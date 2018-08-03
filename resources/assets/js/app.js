@@ -20,7 +20,7 @@ window.rollOverColor = process.env.MIX_MAP_ROLL_OVER_COLOR;
 window.rollOverOutlineColor = process.env.MIX_MAP_ROLL_OVER_OUTLINE_COLOR;
 window.selectedColor = process.env.MIX_MAP_SELECTED_COLOR;
 window.outlineColor = process.env.MIX_MAP_OUTLINE_COLOR;
-window.mixPanelToken = process.env.MIX_MIXPANEL_TOKEN;
+// window.mixPanelToken = process.env.MIX_MIXPANEL_TOKEN;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
