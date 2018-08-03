@@ -74,7 +74,7 @@
         </div>
       </div>
       <button type="submit" class="btn btn-primary submit-signup-btn">Sign in</button>
-      <a href="{{ url('/') }}" class="btn btn-link cancel-btn">Cancel</a>
+      <a href="{{ url('/') }}" class="btn btn-link signup-cancel-btn">Cancel</a>
 
       {{ csrf_field() }}
     </form>
@@ -88,7 +88,7 @@
   // mixpanel.track_links(".submit-signup-btn", "submitted signup form", {
   //     "referrer": document.referrer
   // });
-  mixpanel.track_links(".cancel-btn", "signup cancelled", {
+  mixpanel.track_links(".signup-cancel-btn", "signup cancelled", {
       "referrer": document.referrer
   });
 </script>
